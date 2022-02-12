@@ -33,13 +33,10 @@ header {
     color: orange !important;
 }
 
-.navbar-nav .active a {
+navbar-nav .nav-link.active a {
     color: orange !important;
 }
 
-.nav-link.active {
-    color: orange !important;
-}
 .home-content {
     color: white;
     margin-top: 200px;
@@ -71,7 +68,7 @@ header {
 }
 
 .fixed-top.scrolled {
-    background-color: gainsboro !important;
+    background-color: white !important;
     transition: background-color 200ms linear;
 }
 
