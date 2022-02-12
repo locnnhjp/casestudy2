@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+:root {
+    --bggradient: linear-gradient(to bottom, rgba(186, 85, 111, 0.9), rgba(252, 174, 82, 0.9))
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header css */
+header {
+    background-image: var(--bggradient), url("/images/bg1.jpg");
+    background-repeat: no-repeat;
+}
+
+.navbar-brand {
+    padding-left: 200px;
+}
+
+.navbar .nav-item:last-child {
+    padding-right: 200px;
+}
+
+.navbar-nav .nav-item a{
+    color: white !important;
+}
+.navbar-nav .nav-item:hover a{
+    color: orange !important;
+}
+
+.navbar-nav .active a {
+    color: orange !important;
+}
+
+.nav-link.active {
+    color: orange !important;
+}
+.home-content {
+    color: white;
+    margin-top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.home-content p {
+    margin: 15px auto 15px;
+    max-width: 700px;
+}
+
+.get-started {
+    padding: 10px;
+    background-color: #AB2F52;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 180px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.get-started:hover {
+    background-color: white;
+    color: orange;
+}
+
+.fixed-top.scrolled {
+    background-color: gainsboro !important;
+    transition: background-color 200ms linear;
+}
+
+.fixed-top.scrolled img {
+    content: url("/images/logo-black.png");
+}
+
+.fixed-top.scrolled a {
+    color: black !important;
+}
+
+.fixed-top.scrolled .active a {
+    color: orange !important;
+}
+
+/* header end */
+
+
+/* main css */
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+section h1 {
+    color: #AB2F52;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+section p {
+    margin: 15px auto 50px;
+    max-width: 700px;
+}
+
+section h6 {
+    color: orange;
+}
+
+.learn-more {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    width: 180px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.learn-more:hover {
+    background-color: coral;
+}
+
+.section-services {
+    background-color: #FAFAFA;
+}
+
+.card {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.card hr {
+    width: 20%;
+    border-width: 2px;
+}
+
+.card i {
+    color: orange;
+}
+
+.nav-pills > li > a.active {
+    background-color: #AB2F52 !important;
+    border-radius: 20px !important;
+}
+
+/* testimonial */
+.testimonial {
+    background-color: black;
+    color: white;
+}
+
+.comment-icon {
+    color: #AB2F52;
+    margin-bottom: 40px;
+}
+
+.people-name {
+    margin: 0;
+}
+.job-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.carousel-indicators {
+    margin-bottom: -3rem !important;
+}
+
+.carousel-indicators li {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px; 
+}
+
+.carousel-indicators .active {
+    background-color: #AB2F52 !important;
+}
+
+/* contact */
+.section-contact {
+    background-color: #FAFAFA;
+}
+.info-box {
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+.info-icon {
+    display: inline-block;
+    font-size: 20px;
+    width: 40px;
+    color: #AB2F52;
+}
+
+.info-text {
+    display: inline-block;
+}
+
+.info-text p {
+    padding: 0;
+    margin: 0;
+}
+
+.send-message-btn {
+    padding: 10px;
+    background-color: #AB2F52;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 200px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.form-control {
+    border-bottom: 1px solid black !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-radius: 0 !important;
+    background-color: inherit !important;
+}
+
+/* footer */
+footer {
+    padding: 5px;
+    background: black;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 100px;
+}
